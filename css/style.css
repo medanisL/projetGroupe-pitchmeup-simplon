@@ -1,21 +1,43 @@
 body {
-	margin-top:3em;
-
+	margin: 100px;
 }
-.container {
-	width:auto;
 
-	
-margin:100px;
 
-}
 .container {
-	
-    width:940px;
 	margin-left: auto;
 	margin-right:auto;
 }
 
+
+header{
+	background:rgba(0,0,0,0.3);
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+
+header h1{
+	display: inline-block;
+	margin: 50px;
+	font-size: 50px;
+	color: white;
+	text-transform: capitalize;
+	font-family: 'Open Sans Condensed';
+}
+
+
+header nav{
+	float: right;
+	padding-top: 1%;
+	margin-right: 0.7%;
+
+}
+
+header li{
+	display: inline-block;
+}
 
 footer{
 	background-color: grey;
@@ -24,11 +46,12 @@ footer{
 	text-align: center;
 	font-size: 18px;
 	background: rgba(0,0,0,0.3);
-	margin: 0;
-	padding: 0;
 	width: 100%;
-	height: auto;
-	display:block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+
 }
 
 ul li {
@@ -41,35 +64,4 @@ a:link {
 	color: white;
 }
 
-
-header
-{
-
-	background:rgba(0,0,0,0.3);
-	position: fixed;
-	top:0;
-	left:0;
-	width:100%;
-	
-
-}
-
-header h1 
-{
-	display: inline-block;
-	margin-left: 0.5%;
-}
-
-header nav
-{
-	float: right;
-	padding-top: 1%;
-	margin-right: 0.7%;
-
-}
-
-header li
-{
-	display: inline-block;
-}
 
