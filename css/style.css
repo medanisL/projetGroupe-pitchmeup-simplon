@@ -4,9 +4,18 @@ body {
 }
 .container {
 	width:auto;
+
+	
+margin:100px;
+
+}
+.container {
+	
+    width:940px;
 	margin-left: auto;
 	margin-right:auto;
 }
+
 
 footer{
 	background-color: grey;
@@ -31,3 +40,36 @@ ul li {
 a:link {
 	color: white;
 }
+
+
+header
+{
+
+	background:rgba(0,0,0,0.3);
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	
+
+}
+
+header h1 
+{
+	display: inline-block;
+	margin-left: 0.5%;
+}
+
+header nav
+{
+	float: right;
+	padding-top: 1%;
+	margin-right: 0.7%;
+
+}
+
+header li
+{
+	display: inline-block;
+}
+
