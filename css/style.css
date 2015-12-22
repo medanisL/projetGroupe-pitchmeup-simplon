@@ -1,14 +1,23 @@
-body {
-	
+html {
+	margin: 0;
+	padding: 0;
+	background-image:no-repeat center fixed;
+	-webkit-background-size: cover;
 }
 
-img{ display: block;
+body{
+	background-image: url("../pics/startup-593341.jpg");
+	background-size: cover;
+}
+
+/*
+background-image { 
+	display: block;
 	position: absolute;
 	top:0;
 	left:0;
 	width:100%;
-}
-
+}*/
 
 .container {
 	margin-left: auto;
@@ -18,7 +27,7 @@ img{ display: block;
 
 header{
 
-	background:rgba(0,0,0,0.5);
+	background:rgba(0,0,0,0.6);
 	position:fixed;
 	top:0;
 	left:0;
@@ -43,7 +52,7 @@ header nav {
 
 header a{
 	color: white;
-
+	font-size: 13px;
 }
 
 a:hover{
@@ -62,23 +71,70 @@ header li{
 .blockcentral{
 	display:inline;
 	position: absolute;
-	top:200px;
-	left:200px;
+	top:20%;
+	left:35%;
 }
 
+
 .blockcentral aside{
-	height: 100px;
-	width: 200px;
-	background-color: rgba(0,0,0,0.3);
+	display: inline;
+	position: absolute;
+	height: 200px;
+	width: 500px;
+	background-color: rgba(0,0,0,0.7);
 	border-radius: 5px;
 	line-height:22px;
-	margin: auto;
-	padding: 15px;
 	text-align: center;
+	color: white;
+	font-family: 'Open Sans Condensed';
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	font-weight: lighter;
+}
+
+
+#inscription{
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans Condensed';
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	padding: 10px;
+	margin: 10px;
+	line-height: 1.2em;
 }
 
  #infos ul li{
-	height: 180px;
+ 	margin: auto;
+ 	padding: 0;
+	height: 400px;
+	width: 200px;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 3px;
+	line-height:22px;
+	margin: 80px 5px 40px 100px;
+	display: inline;
+	padding: 25px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-family: 'Open Sans Condensed';
+}
+
+#pitchezamour{
+	font-size: 27px;
+	color: #FF5722;
+	padding: 1px;
+	font-style: oblique;
+}
+
+i{
+	padding-top: -5px;
+	padding-left: 10px;
+}
+
+.casesprojets li {
+	height: auto;
 	width: 200px;
 	background-color: rgba(0,0,0,0.3);
 	border-radius: 5px;
@@ -90,18 +146,6 @@ header li{
 	text-align: center;
 }
 
-#pitchezamour{
-	font-size: 27px;
-	color: #FF5722;
-	padding: 3px;
-	font-style: oblique;
-}
-
-i{
-	padding-left: 10px;
-}
-
-
 
 footer{
 	background-color: grey;
@@ -109,7 +153,7 @@ footer{
 	font-family: 'Open Sans Condensed';
 	text-align: center;
 	font-size: 20px;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.7);
 	width: 100%;
 	position: fixed;
 	bottom: 0;
@@ -120,9 +164,32 @@ ul li {
 	list-style-type: none;
 	display: inline;
 	padding: 30px;
-
 }
+
 footer a {
 	color: white;
 }
+
+
+
+/********formulaire**********/
+
+form {
+    
+    margin: 0 auto;
+    width: 40%;
+    height:150px;
+  
+    margin-top: 10%;
+    padding: 1em;
+    
+}
+
+
+
+footer p {
+	display: inline;
+	padding: 30px;
+}
+
 
