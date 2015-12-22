@@ -4,8 +4,14 @@ var apl = new senna.App();
 
 	apl.setBasePath('/');
 	apl.addSurfaces('sennastuff');
-	apl.addRoutes(new senna.Route(/\w+\.html/,senna.HtmlScreen));
-
+	apl.addRoutes([
+		new senna.Route('contact.html', senna.HtmlScreen),
+		new senna.Route('index.html', senna.HtmlScreen),
+		new senna.Route('lieux.html', senna.HtmlScreen),
+		new senna.Route('meetup.html', senna.HtmlScreen),
+		new senna.Route('projets.html', senna.HtmlScreen),
+		new senna.Route('xpairs.html', senna.HtmlScreen)
+		]);
 var app = {
 	config: {
 		url:"https://smp.ovh",
