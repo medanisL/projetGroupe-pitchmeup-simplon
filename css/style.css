@@ -3,11 +3,12 @@ body {
 }
 
 #parent{
-	background-image: url("pics/startup-593341.jpg");
+	background-image: url("/pics/startup-593341.jpg");
 	width:100%;
 	position: relative;
 	top:0;
 	left:0;
+	height:100%;
 }
 
 
