@@ -126,3 +126,18 @@ footer a {
 	color: white;
 }
 
+
+/********formulaire**********/
+
+form {
+    
+    margin: 0 auto;
+    width: 40%;
+    height:150px;
+  
+    margin-top: 10%;
+    padding: 1em;
+    
+}
+
+
