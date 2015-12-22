@@ -1,7 +1,13 @@
 body {
-	margin-top: 80px;
+	margin-top: 80px; 
 }
 
+img{display:block;
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
 
 .container {
 	margin-left: auto;
@@ -11,7 +17,7 @@ body {
 
 header{
 	background:rgba(0,0,0,0.3);
-	position: fixed;
+	position:fixed;
 	top:0;
 	left:0;
 	width:100%;
@@ -40,6 +46,11 @@ header li{
 	display: inline-block;
 }
 
+.blockcentral{
+	display:inline;
+	position: relative;
+}
+
 footer{
 	background-color: grey;
 	color:white;
@@ -51,8 +62,6 @@ footer{
 	position: fixed;
 	bottom: 0;
 	left: 0;
-
-
 }
 
 ul li {
@@ -64,5 +73,4 @@ ul li {
 footer a {
 	color: white;
 }
-
 
