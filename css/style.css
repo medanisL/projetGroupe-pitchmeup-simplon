@@ -102,13 +102,13 @@ header li{
 	padding: 10px;
 	margin: 10px;
 	line-height: 1.2em;
+	width: 500px;
+	height: 500px;
 }
 
  #infos ul li{
  	margin: auto;
  	padding: 0;
-	height: 400px;
-	width: 200px;
 	background-color: rgba(0,0,0,0.6);
 	border-radius: 3px;
 	line-height:22px;
