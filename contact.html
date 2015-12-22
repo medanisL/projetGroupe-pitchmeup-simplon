@@ -17,23 +17,41 @@
 
     <div class="container" id="sennastuff">
 
-    <div id="sennastuff-default"></div>
+    <div id="sennastuff-default">
 
         <div>
 
-            <FORM >
-            <P>
-            <LABEL for="prenom">Prénom : </LABEL>
-                      <INPUT type="text" id="prenom"><BR>
-            <LABEL for="nom">Nom : </LABEL>
-                      <INPUT type="text" id="nom"><BR>
-            <LABEL for="email">e-mail : </LABEL>
-                      <INPUT type="text" id="email"><BR>
-            <INPUT type="radio" name="genre" value="homme"> Homme<BR>
-            <INPUT type="radio" name="genre" value="femme"> Femme<BR>
-            <INPUT type="submit" value="Envoyer"> <INPUT type="reset">
-            </P>
-            </FORM>
+        <form class="ui form">
+              <div class="field">
+                <label>Nom</label>
+                <input name="nom" placeholder="Nom" type="text">
+            </div>
+            <div class="field">
+                <label>Prenom</label>
+                <input name="prenom" placeholder="Prenom" type="text">
+            </div>
+
+           
+            <div class="field">
+                <label>E-mail</label>
+                <input placeholder="bidule@gmail.com" type="email">
+            </div>
+
+            <div class="field">
+                <label>Objet </label>
+                <input name="objet" placeholder="commentaire meetup" type="text">
+            </div>
+            
+        
+            <div class="field">
+                <label>Texte </label>
+                <textarea></textarea>
+            </div>
+            
+            
+            <button class="ui button" type="submit">Submit</button>
+        </form>
+
             
         </div>
 
