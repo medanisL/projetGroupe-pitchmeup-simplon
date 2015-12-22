@@ -14,7 +14,8 @@
       rel="stylesheet">
     </head>
     <body>
-    <img src="pics/startup-593341.jpg" alt="startup">
+    <div id="parent">
+    
         <header>
             <h1>Pitch me up !</h1>
             <nav>
@@ -34,7 +35,6 @@
 
     <div id="sennastuff-default"></div>
 
-        <div >
 
         <div class="blockcentral">
 
@@ -44,10 +44,12 @@
                 <a href="#">inscrivez vous </a>
             </aside>
            
-            <div>
-                <section>A propos</section>
-                <section>Concept</section>
-                <section>Projet A Venir</section>
+            <div id="infos">
+                <ul>
+                    <li>A propos</li>
+                    <li>Concept</li>
+                    <li>Projet A Venir</li>
+                </ul>
             </div>
 
         </div>
@@ -56,26 +58,24 @@
 
     </div>
 
+
         <footer>    
             <p id="pitchezamour">pitchez avec amour<i class="material-icons">favorite_border</i><i class="material-icons">favorite_border</i><i class="material-icons">favorite_border</i></p>
                        
+
             <ul>
                     <li><a href="#">facebook</a></li>
                     <li><a href="#">twitter</a></li>
-                    <li><a href="#">meetup</a></li>
-                  
+                    <li><a href="#">meetup</a></li>    
             </ul>    
             
             
             <p>contact</p>
             <p>mentions legales </p>
             
-            
         </footer>
 
-
     </div>
-    
 
         
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -83,6 +83,6 @@
         <script src="node_modules/mustache/mustache.min.js"></script>
         <script src="node_modules/senna/build/senna.js"></script>
         <script src="js/app.js"></script>
-
+        
     </body>
 </html>
