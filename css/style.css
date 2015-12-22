@@ -102,13 +102,13 @@ header li{
 	padding: 10px;
 	margin: 10px;
 	line-height: 1.2em;
+	width: 500px;
+	height: 500px;
 }
 
  #infos ul li{
  	margin: auto;
  	padding: 0;
-	height: 400px;
-	width: 200px;
 	background-color: rgba(0,0,0,0.6);
 	border-radius: 3px;
 	line-height:22px;
@@ -133,6 +133,30 @@ i{
 	padding-left: 10px;
 }
 
+.casesprojets li {
+	height: auto;
+	width: auto;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 5px;
+	line-height:22px;
+	margin: 250px 150px;
+	display: inline;
+	float: left;
+	padding: 15px;
+	text-align: center;
+	color:white;
+	font-family: 'Open Sans Condensed';
+	font-size: 15px;
+	letter-spacing: 0.4em;
+	font-weight: lighter;
+}
+
+.casesprojets li p {color:white;
+	font-family: 'Open Sans Condensed';
+	font-size: 15px;
+	letter-spacing: 0.4em;
+	font-weight: lighter;	
+}
 
 
 footer{
