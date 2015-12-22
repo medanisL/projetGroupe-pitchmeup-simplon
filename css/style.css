@@ -216,6 +216,10 @@ form {
     border-radius: 5px;
 }
 
+div label{
+	color:white;
+}
+
 
 footer p {
 	display: inline;
