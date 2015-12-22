@@ -1,21 +1,23 @@
 html {
 	margin: 0;
 	padding: 0;
-	background: url(pics/startup-593341.jpg) no-repeat center fixed;
+	background-image:no-repeat center fixed;
 	-webkit-background-size: cover;
+}
+
+body{
+	background-image: url("../pics/startup-593341.jpg");
 	background-size: cover;
 }
 
-
-
-img{ 
+/*
+background-image { 
 	display: block;
 	position: absolute;
 	top:0;
 	left:0;
 	width:100%;
-}
-
+}*/
 
 .container {
 	margin-left: auto;
