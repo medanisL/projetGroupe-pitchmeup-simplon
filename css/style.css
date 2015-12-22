@@ -154,8 +154,24 @@ i{
 .casesprojets li p {color:white;
 	font-family: 'Open Sans Condensed';
 	font-size: 15px;
-	letter-spacing: 0.4em;
+	letter-spacing: 0.3em;
 	font-weight: lighter;	
+}
+
+.sessions{
+	margin-top:20%;
+	margin-left: 20%;
+}
+
+.sessions li{
+	float: left;
+	display:inline;
+	background-color: rgba(0,0,0,0.7);
+	margin: 5px;
+	color:white;
+	font-family: 'Open Sans Condensed';
+	border-radius: 5%;
+	font-size: 20px;
 }
 
 
