@@ -18,7 +18,8 @@ body {
 
 
 header{
-	background:rgba(0,0,0,0.3);
+
+	background:rgba(0,0,0,0.5);
 	position:fixed;
 	top:0;
 	left:0;
@@ -26,22 +27,33 @@ header{
 	height: 70px;
 }
 
-
 header h1{
 	display: inline-block;
 	margin-left: 50px;
-	font-size: 50px;
+	font-size: 55px;
 	color: white;
 	text-transform: uppercase;
 	font-family: 'Open Sans Condensed';
+	font-weight: lighter;
 }
-
 
 header nav {
 	float: right;
-	padding-top: 1%;
-	margin-right: 0.7%;
+	padding: 0.6%;
+}
 
+header a{
+	color: white;
+
+}
+
+a:hover{
+	color: #FF5722;
+}
+
+a:active{
+	color: #FF5722;
+	text-decoration: underline; 
 }
 
 header li{
@@ -69,13 +81,26 @@ header li{
 	text-align: center;
 }
 
+#pitchezamour{
+	font-size: 27px;
+	color: #FF5722;
+	padding: 3px;
+	font-style: oblique;
+}
+
+i{
+	padding-left: 10px;
+}
+
+
+
 footer{
 	background-color: grey;
 	color:white;
 	font-family: 'Open Sans Condensed';
 	text-align: center;
-	font-size: 18px;
-	background: rgba(0,0,0,0.3);
+	font-size: 20px;
+	background: rgba(0,0,0,0.5);
 	width: 100%;
 	position: fixed;
 	bottom: 0;
