@@ -151,15 +151,47 @@ i{
 
 .casesprojets li {
 	height: auto;
-	width: 200px;
-	background-color: rgba(0,0,0,0.3);
+	width: auto;
+	background-color: rgba(0,0,0,0.7);
 	border-radius: 5px;
 	line-height:22px;
-	margin: 80px 5px 40px 150px;
+	margin: 250px 150px;
 	display: inline;
 	float: left;
 	padding: 15px;
 	text-align: center;
+	color:white;
+	font-family: 'Open Sans Condensed';
+	font-size: 15px;
+	letter-spacing: 0.4em;
+	font-weight: lighter;
+}
+
+.casesprojets li p {color:white;
+	font-family: 'Open Sans Condensed';
+	font-size: 15px;
+	letter-spacing: 0.3em;
+	font-weight: lighter;	
+}
+
+.sessions{
+	margin-top:20%;
+	margin-left: 20%;
+}
+
+.sessions li{
+	float: left;
+	display:inline;
+	background-color: rgba(0,0,0,0.7);
+	margin: 28px;
+	color:white;
+	font-family: 'Open Sans Condensed';
+	border-radius: 5%;
+	font-size: 20px;
+}
+
+.field p{
+	color:white;
 }
 
 
@@ -191,21 +223,22 @@ footer a {
 /********formulaire**********/
 
 form {
-    
+	background-color: rgba(0,0,0,0.7);
     margin: 0 auto;
     width: 40%;
-    height:150px;
-  
-    margin-top: 10%;
+    height:560px;
+    margin-top: 6%;
     padding: 1em;
-    
+    border-radius: 5px;
 }
 
+div label{
+	color:white;
+}
 
 
 footer p {
 	display: inline;
 	padding: 30px;
 }
-
 
