@@ -5,9 +5,8 @@ html {
 	-webkit-background-size: cover;
 }
 
-/*changement url image*/
 body{
-	background-image:url(/pics/startup-593341.jpg);
+	background-image: url(../pics/startup-593341.jpg);
 	background-size: cover;
 }
 
@@ -83,7 +82,7 @@ header li{
 
 
 .blockcentral aside{
-	height: 250px;
+	height: 280px;
 	width: 500px;
 	background-color: rgba(0,0,0,0.7);
 	border-radius: 5px;
@@ -121,17 +120,25 @@ header li{
 	padding: 0.3px;
 }
 
+#start{
+	color: #FF5722;
+}
+
+#infos{
+	margin-left: -31%;
+	margin-right: 0;
+}
 
 #infos li {
-	height: 500px;
-	width: 200px;
-	background-color: rgba(0,0,0,0.6);
+	height: 210px;
+	width: 500px;
+	background-color: rgba(0,0,0,0.7);
 	border-radius: 5px;
 	line-height:25px;
-	margin:10% 3% 0 auto;
-	display: inline;
-	float: left;
-	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	padding: 15px;
 	text-align: center;
 	font-size: 20px;
 	color: white;
@@ -150,44 +157,79 @@ i{
 	padding-left: 10px;
 }
 
-.casesprojets li {
-	height: auto;
-	width: auto;
-	background-color: rgba(0,0,0,0.7);
+#projets{
+	background-color: rgba(0,0,0,0.8);
 	border-radius: 5px;
-	line-height:22px;
-	margin: 250px 150px;
+	text-align: center;
+	color: white;
+	margin-top: 10%;
+	width: 30%;
+	height: 50px;
+	font-size: 32px;
+	font-family: 'Open Sans Condensed';
+	font-weight: lighter;
+	margin-right: auto;
+	margin-left: 34.5%;
+}
+
+.casesprojets li {
+	height: 350px;
+	width: 30%;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 5px;
+	line-height:28px;
+	margin-top: 5%;
+	margin-right: 3.3%;
 	display: inline;
 	float: left;
-	padding: 15px;
+	padding: 20px;
 	text-align: center;
-	color:white;
+	color:#FF5722;
 	font-family: 'Open Sans Condensed';
-	font-size: 15px;
+	font-size: 30px;
 	letter-spacing: 0.4em;
 	font-weight: lighter;
 }
 
-.casesprojets li p {color:white;
+.casesprojets li p {
+	color:white;
 	font-family: 'Open Sans Condensed';
-	font-size: 15px;
+	font-size: 20px;
 	letter-spacing: 0.3em;
-	font-weight: lighter;	
+	font-weight: lighter;
+}
+
+#xpairs{
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	font-family: 'open Sans Condensed';
+	font-size: 32px;
+	margin-top: 10%;
+	font-weight: lighter;
+	width: 25%;
+	margin-right: auto;
+	margin-left: 36%;
+	
+
 }
 
 .sessions{
-	margin-top:20%;
-	margin-left: 20%;
+	margin-top:5%;
+	margin-left: 10%;
 }
 
 .sessions li{
+	height: 300px;
+	width: 23%;
 	float: left;
 	display:inline;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.8);
 	margin: 28px;
 	color:white;
 	font-family: 'Open Sans Condensed';
-	border-radius: 5%;
+	border-radius: 5px;
 	font-size: 20px;
 }
 
