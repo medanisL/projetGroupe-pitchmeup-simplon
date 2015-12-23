@@ -222,4 +222,100 @@ footer p {
 	padding: 30px;
 }
 
-
+.lieublock {
+	margin-top: 100px;
+}
+.lieublock li {
+	background:rgba(0,0,0,0.7);
+	margin-left: 100px;
+	display: inline-block;
+	border-radius: 3px;
+}
+.lieublock div {
+	background:rgba(0,0,0,0.7);
+	margin-left: 100px;
+	display: inline-block;
+	width: 360px;
+	margin-top: 20px;
+	border-radius: 3px;
+	padding: 5px;
+	color: white;
+	height: 250px;
+}
+.lieublock a {
+	color: #FF5722;
+}
+.containermeetup {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	display: inline;
+	color: white;
+	width: 940px;
+}
+.containermeetup ul {
+	display: inline-block;
+	font-size: 20px;
+}
+.section1 {
+	margin-top: 100px;
+	margin-left: 80px;
+}
+.section1 li {
+	background:rgba(0,0,0,0.7);
+	display: inline-block;
+	border-radius: 3px;
+}
+.section1 p {
+	width: 600px;
+	float: right;
+}
+.section2 ul {
+	background:rgba(0,0,0,0.7);
+	border-radius: 3px;
+	margin-top: 0;
+	margin-right: 2px;
+	width: 79%;
+	margin-left: 100px;
+}
+.section3 {
+	margin-left: 80px;
+}
+.section3 li {
+	background:rgba(0,0,0,0.7);
+	display: inline-block;
+	border-radius: 3px;
+}
+.section3 p {
+	width: 600px;
+	float: right;
+}
+.section4 ul {
+	background:rgba(0,0,0,0.7);
+	border-radius: 3px;
+	margin-top: 0;
+	margin-right: 2px;
+	width: 79%;
+	margin-left: 100px;
+}
+.section5 {
+	margin-left: 80px;
+}
+.section5 li {
+	background:rgba(0,0,0,0.7);
+	display: inline-block;
+	border-radius: 3px;
+}
+.section5 p {
+	width: 600px;
+	float: right;
+}
+.section6 {
+	margin-bottom: 150px;
+	background:rgba(0,0,0,0.7);
+	border-radius: 3px;
+	margin-top: 0;
+	margin-right: 2px;
+	width: 79%;
+	margin-left: 100px;
+}
