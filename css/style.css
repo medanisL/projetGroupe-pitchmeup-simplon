@@ -287,16 +287,18 @@ footer p {
 
 .lieublock {
 	margin-top: 100px;
+	font-family: 'open sans Condensed';
+	font-size: 20px;
 }
 
 .lieublock li {
-	background:rgba(0,0,0,0.7);
+	background:rgba(0,0,0,0.8);
 	margin-left: 100px;
 	display: inline-block;
 	border-radius: 3px;
 }
 .lieublock div {
-	background:rgba(0,0,0,0.7);
+	background:rgba(0,0,0,0.8);
 	margin-left: 100px;
 	display: inline-block;
 	width: 360px;
@@ -304,7 +306,7 @@ footer p {
 	border-radius: 3px;
 	padding: 5px;
 	color: white;
-	height: 250px;
+	height: 400px;
 }
 .lieublock a {
 	color: #FF5722;
@@ -316,10 +318,12 @@ footer p {
 	display: inline;
 	color: white;
 	width: 940px;
+	font-family: 'open sans Condensed';
 }
 .containermeetup ul {
 	display: inline-block;
 	font-size: 20px;
+
 }
 .section1 {
 	margin-top: 100px;
